@@ -1,0 +1,26 @@
+Algoritmo "jogo de tenis"
+
+Var
+   t1, t2: real
+Inicio
+
+   Escreva ("Como está o tempo hoje? Digite 1 para seco ou 2 para chuva: ")
+   Leia (t1)
+   Escreval ("Como está a temperatura hoje? Digite 1 para frio ou 2 para quente: ")
+   Leia (t2)
+   Se (t1 = 1) e (t2 = 1) entao
+      Escreval ("Você deve jogar")
+   senao
+      se (t1 = 1) e (t2 = 2) entao
+         Escreval ("Você nao deve jogar")
+      senao
+         se(t1 = 2) e (t2 = 2) entao
+            Escreval ("Você deve jogar")
+         senao
+            Escreval ("Você não deve jogar")
+         fimse
+      fimse
+   fimse
+
+
+Fimalgoritmo

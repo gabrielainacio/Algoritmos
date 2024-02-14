@@ -1,0 +1,38 @@
+
+Algoritmo "exercicio 16"
+
+Var
+   cigdia, ano, dias: real
+Inicio
+   Escreva ("Digite quantos cigarros você fuma por dia: ")
+   Leia (cigdia)
+   Escreva ("Digite por quantos anos você ja fumou: ")
+   Leia (ano)
+   dias <- (cigdia* 0.00694444)/(ano*365)
+   Escreval ("o tempo perdido é: ", dias, " dias")
+
+
+
+
+
+
+
+
+Fimalgoritmo
+16) [DESAFIO] Escreva um programa para calcular a redução do tempo de vida de um
+fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele
+já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule
+quantos dias de vida um fumante perderá e exiba o total em dias.
+
+1 ano ----- 365  dias
+n --------- x
+(n*365)
+
+
+1 cigarro  0.00694444 dias
+n            x
+(n* 0.00694444)
+
+1 cigarro  0.00694444 dias
+n            (n*365)
+(n* 0.00694444)/(n*365)

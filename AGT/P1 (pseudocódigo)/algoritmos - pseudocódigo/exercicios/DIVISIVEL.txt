@@ -1,0 +1,33 @@
+Algoritmo "divisivel"
+
+Var
+   N: Inteiro
+
+Inicio
+   Escreva ("Digite um numero qualquer: ")
+   Leia (N)
+   Se (n % 2 = 0) entao
+      escreval ("o numero é divisivel por 2")
+   senao
+      se (n % 3 = 0) entao
+         escreval ("o numero é divisivel por 3")
+      senao
+         se (n % 5 = 0)entao
+             escreval ("o numero é divisivel por 5")
+             senao
+             escreval ("o numero é divisivel por 7")
+         fimse
+      fimse
+   Fimse
+
+Fimalgoritmo
+
+
+Escreva um algoritmo que lê um número N do tipo inteiro positivo.
+
+Esse número deve ser avaliado pelo programa que informará se ele é divisível
+   por 2, por 3, por 5 ou por 7.
+
+   Entrada: 5
+
+   Saída: Divisível por 5

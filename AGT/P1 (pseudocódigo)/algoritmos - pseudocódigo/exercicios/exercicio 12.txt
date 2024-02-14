@@ -1,0 +1,21 @@
+
+Algoritmo "exercicio 10"
+
+Var
+   preco, promo: real
+Inicio
+   Escreva ("Digite o preço do produto: ")
+   Leia (preco)
+   promo <- preco - (preco*0.05)
+   Escreval ("o preco promocional é: ", promo, "reais")
+
+
+
+
+
+
+
+
+Fimalgoritmo
+12) Crie um programa que leia o preço de um produto, calcule e mostre o seu
+PREÇO PROMOCIONAL, com 5% de desconto.

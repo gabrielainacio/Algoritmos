@@ -1,0 +1,25 @@
+
+Algoritmo "exercicio 14"
+
+Var
+   km, dias, preco: real
+Inicio
+   Escreva ("Digite a quantidade de km percorridos: ")
+   Leia (km)
+   Escreva ("Digite a quantidade de dias que você ficou com o carro: ")
+   Leia (dias)
+   preco <- (90*dias) + (0.20*km)
+   Escreval ("o total é: ", preco, "reais")
+
+
+
+
+
+
+
+
+Fimalgoritmo
+14) A locadora de carros precisa da sua ajuda para cobrar seus serviços.
+Escreva um programa que pergunte a quantidade de Km percorridos por um carro
+alugado e a quantidade de dias pelos quais ele foi alugado.
+Calcule o preço total a pagar, sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado.
